@@ -53,7 +53,7 @@ function NavOpenLang(){
         if (newSelect[0].innerHTML != `рус<img src="images/IconFrame.png" alt="arrow">`){
             newSelect[0].innerHTML = `рус<img src="images/IconFrame.png" alt="arrow">`;
             document.body.innerHTML = ru;
-            location.replace('../index.html');
+            location.replace('https://annebirdie.github.io/Lidera/');
         }
     });
 
@@ -61,7 +61,7 @@ function NavOpenLang(){
         if (newSelect[0].innerHTML != `каз<img src="images/IconFrame.png" alt="arrow">`){
             newSelect[0].innerHTML = `каз<img src="images/IconFrame.png" alt="arrow">`;
             document.body.innerHTML = kk;
-            location.replace('../kkindex.html');
+            location.replace('https://annebirdie.github.io/kkLidera/');
         }
     });
 }
